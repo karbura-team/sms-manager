@@ -27,6 +27,6 @@
         "psr-0": {
             "SmsManager": "src/"
         }
-    },
+    }
 
 }
