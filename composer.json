@@ -16,6 +16,8 @@
             "homepage": "http://www.karbura.com/"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.6.4",
         "yiisoft/yii2": "^2.0"
@@ -27,6 +29,10 @@
         "psr-0": {
             "SmsManager": "src/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
-
 }
