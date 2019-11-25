@@ -1,0 +1,14 @@
+{
+    "name": "karbura/sms-manager",
+    "authors": [
+        {
+            "name": "Karbura SA"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "SmsManager": "src/"
+        }
+    }
+}
