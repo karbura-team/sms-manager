@@ -16,7 +16,7 @@
             "homepage": "http://www.karbura.com/"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-0": {
