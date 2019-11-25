@@ -26,12 +26,10 @@
 
       public static function sendByMTARGET($numero,$message,$source,$username,$password) {
 
-                    $destination = $numero;
+                    $destination = $numero; $source = urlencode($source);
                     
                     $message = urlencode($message);
 
-
-    
                     $url = 'https://api-public.mtarget.fr/api-sms.json?username='.$username.'&password='.$password.'&sender='.$source.'&msisdn=%2b237'.$destination.'&msg='.$message;
         
                     $ch = curl_init();
