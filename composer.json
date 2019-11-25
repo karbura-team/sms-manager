@@ -1,14 +1,30 @@
 {
     "name": "karbura/sms-manager",
+    "description": "Yii 2 package for sms ",
+    "keywords": [
+        "yii2",
+        "extension",
+        "sms"
+    ],
+    "homepage": "https://github.com/sumbang/sms-manager",
+    "type": "yii2-extension",
+    "license": "MIT License",
     "authors": [
         {
-            "name": "Karbura SA"
+            "name": "Karbura SA",
+            "email": "christian.sumbang@karbura.com",
+            "homepage": "http://www.karbura.com/"
         }
     ],
     "require": {},
     "autoload": {
         "psr-0": {
             "SmsManager": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }

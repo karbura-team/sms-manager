@@ -1,4 +1,5 @@
 <?php
+
    namespace SmsManager;
    
    class Sms {
